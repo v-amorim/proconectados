@@ -26,7 +26,6 @@ def create_connection():
             port=db_port,
             dbname=db_name
         )
-        print('Database connected successfully')
 
     except err:
         print(f'Database not connected successfully.\n    Error message: {err}')
