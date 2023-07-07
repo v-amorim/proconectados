@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        nav {
+            background-color: rgb(28, 33, 40);
+        }
+
+        nav ul {
+            text-align: center
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav li a {
+            display: inline-block;
+            color: #f2f2f2;
+            text-decoration: none;
+            padding: 20px;
+        }
+
+        nav li a:hover {
+            background-color: rgb(99, 110, 250);
+            cursor: pointer;
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            box-shadow: 0 0 2px rgb(99, 110, 250);
+            display: none;
+            background-color: rgb(43, 48, 56);
+            z-index: 9999;
+        }
+
+        .dropdown-menu a {
+            display: block;
+            color: #f2f2f2;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav-menu">
+            <ul>
+                <li>
+                    <a href="/">Inicio</a>
+                </li>
+                <li class='dropdown'>
+                    <a>Temporal</a>
+                    <div class='dropdown-menu'>
+                        <a href="/temporal_tendencias">Tendências</a>
+                        <a href="/temporal_sazonalidade">Sazonalidade</a>
+                    </div>
+
+                </li>
+                <li class='dropdown'>
+                    <a>Geográfica</a>
+                    <div class='dropdown-menu'>
+                        <a href="/geografica_regiao_distribuicao">Mapa</a>
+                        <a href="/geografica_regiao_variacao">Variação ao Longo do Tempo</a>
+                    </div>
+
+                </li>
+                <li class='dropdown'>
+                    <a>Reclamação</a>
+                    <div class='dropdown-menu'>
+                        <a href="/reclamacao_assuntos">Assuntos Recorrentes</a>
+                        <a href="/reclamacao_problema_comum">Problemas Comuns</a>
+                        <a href="/reclamacao_problema_regiao">Destaques por Região ou UF</a>
+                    </div>
+
+                </li>
+                <li class='dropdown'>
+                    <a>Demográfica</a>
+                    <div class='dropdown-menu'>
+                        <a href="/demografica_genero_atendimento">Distribuição dos Atendimentos por Gênero</a>
+                        <a href="/demografica_faixa_etaria_atendimento">Distribuição dos Atendimentos por Faixa
+                            Etária</a>
+                        <a href="/demografica_genero_problema">Principais Problemas por Gênero</a>
+                        <a href="/demografica_faixa_etaria_problema">Principais Problemas por Faixa Etária</a>
+                    </div>
+
+                </li>
+            </ul>
+        </nav>
+    </div>
+</body>
+
+</html>

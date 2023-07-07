@@ -1,0 +1,21 @@
+{% include 'global.html' %}
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Atendimento por Gênero</title>
+</head>
+
+<body>
+    <main>
+        <h1>Distribuição dos Atendimentos por Gênero</h1>
+        <div>
+            {{ plot | safe }}
+        </div>
+    </main>
+    {% include 'footer.html' %}
+</body>
+
+</html>

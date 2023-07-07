@@ -1,0 +1,21 @@
+{% include 'global.html' %}
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tendências</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tendências</h1>
+        <div>
+            {{ plot | safe }}
+        </div>
+    </main>
+    {% include 'footer.html' %}
+</body>
+
+</html>

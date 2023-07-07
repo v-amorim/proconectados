@@ -1,0 +1,31 @@
+{% include 'global.html' %}
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Assuntos Recorrentes</title>
+</head>
+
+<body>
+    <main>
+        <h1>Assuntos Mais Recorrentes nas Reclamações</h1>
+        <div>
+            <form action="" method="get">
+                <label for="ano">Selecione o ano:</label>
+                <select name="ano" id="ano">
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                </select>
+                <button type="submit">Atualizar</button>
+            </form>
+        </div>
+        <div>
+            {{ plot | safe }}
+        </div>
+    </main>
+    {% include 'footer.html' %}
+</body>
+
+</html>

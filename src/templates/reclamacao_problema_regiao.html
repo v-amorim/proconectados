@@ -1,0 +1,40 @@
+{% include 'global.html' %}
+{% include 'header.html' %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Destaques por Região ou UF</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Destaques por Região ou UF</h1>
+        <div>
+            <label for="uf_regiao">Selecionar UF ou Região:</label>
+            <select id="uf_regiao" name="uf_regiao">
+                <option value="">Todas</option>
+                <option value="Norte">Norte</option>
+                <option value="Nordeste">Nordeste</option>
+                <option value="Sul">Sul</option>
+                <option value="Sudeste">Sudeste</option>
+                <option value="Centro-oeste">Centro-oeste</option>
+                <!-- Adicione mais opções conforme necessário -->
+            </select>
+            <button onclick="submitForm()">Filtrar</button>
+        </div>
+        <div id="plot"></div>
+        <script>
+            function submitForm() {
+                var ufRegiao = document.getElementById("uf_regiao").value;
+                window.location.href = "/reclamacao_problema_regiao?uf_regiao=" + ufRegiao;
+            }
+        </script>
+        {{ plot | safe }}
+    </main>
+    {% include 'footer.html' %}
+</body>
+
+</html>
