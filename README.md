@@ -3,14 +3,11 @@
 	<img  src="https://user-images.githubusercontent.com/79182711/187928980-1c1c834c-d92c-4565-b7b6-9cf5b644873e.png"  alt="Alpha EdTech"  title="Alpha EdTech"  width="250" />
 	</a>
 	<h1>
-		Desafio Engenharia de Dados
+		Desafio Engenharia de Dados - Proconectados
 	</h1>
-	<h3>
-		Proconectados
-   </h3>
 </div>
 
-## Requisitos do desafio
+### Requisitos do desafio
 
 Neste desafio, proposto pelo programa Alpha EdTech, os grupos são criados pelos professores e deverá ser realizado os processos de "coleta", 'limpeza", "análise" e "visualização" de dados da **Administração Pública brasileira** tendo como requisitos:
 
