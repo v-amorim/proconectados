@@ -1,6 +1,7 @@
 ## **Setup**
 
 Recomendado instalar o [Pyenv](https://github.com/pyenv-win/pyenv-win), para gerenciar as versões do python.
+
 Para instalar a versão 3.11.2 necessária para o projeto, basta rodar o comando `pyenv install 3.11.2` no terminal.
 
 ```bash
