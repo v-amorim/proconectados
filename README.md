@@ -68,7 +68,7 @@ Esse repositório está licenciado pela **Mit License**. Para mais informações
 			<a href="https://github.com/viniam"><img src="https://avatars.githubusercontent.com/u/629036?v=4" width="100px;" alt="Vinicius Amorim"/><br /><sub><b>Vinicius Amorim</b></sub></a><br />🚀<br />
 		</td>
 		<td align="center">
-			<a href="https://github.com/antoniofco22"><img src="https://avatars.githubusercontent.com/u/31553941?v=4" width="100px;" alt="Geverson Araujo Fernandes"/><br /><sub><b>Geverson Araujo Fernandes</b></sub></a><br />🚀<br />
+			<a href="https://github.com/geversonfernandes"><img src="https://avatars.githubusercontent.com/u/31553941?v=4" width="100px;" alt="Geverson Araujo Fernandes"/><br /><sub><b>Geverson Araujo Fernandes</b></sub></a><br />🚀<br />
         </td>
 	</tr>
 </table>
