@@ -3,8 +3,7 @@
 	<img  src="https://user-images.githubusercontent.com/79182711/187928980-1c1c834c-d92c-4565-b7b6-9cf5b644873e.png"  alt="Alpha EdTech"  title="Alpha EdTech"  width="250" />
 	</a>
 	<h1>
-		Desafio Engenharia de Dados - [Proconectados](https://github.com/viniam/proconectados/tree/main)
-		
+		Desafio Engenharia de Dados - Proconectados
 	</h1>
 </div>
 
@@ -57,6 +56,7 @@ O tema escolhido foi o de explorar as informações coletadas do site do minist�
 - [Fonte dos Dados do Procon](https://dados.mj.gov.br/dataset/atendimentos-de-consumidores-nos-procons-sindec)
 - [Apresentação do Projeto](https://www.canva.com/design/DAFn6ie8Hts/Wvi_IWp69N8Jvp6jkI2S9w/view?utm_content=DAFn6ie8Hts&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 - [Setup para poder executar](https://github.com/viniam/proconectados/blob/main/SETUP.md)
+- [Repositório Proconectados](https://github.com/viniam/proconectados/tree/main)
 
 ## Licença
 
