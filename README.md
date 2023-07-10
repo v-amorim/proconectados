@@ -53,13 +53,12 @@ O tema escolhido foi o de explorar as informações coletadas do site do minist�
 
 ## Referências
 
-- [Guia Git e Github - Boas Práticas](https://diegocoliveira.github.io/equipe10-dev-html/index.html);
 - [Fonte dos Dados do Procon](https://dados.mj.gov.br/dataset/atendimentos-de-consumidores-nos-procons-sindec)
 - [Apresentação do Projeto](https://www.canva.com/design/DAFn6ie8Hts/Wvi_IWp69N8Jvp6jkI2S9w/view?utm_content=DAFn6ie8Hts&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## Licença
 
-Esse repositório está licenciado pela **Mit License**. Para mais informações detalhadas, leia o arquivo [License](https://github.com/janascher/desafio-python-firevision/blob/main/LICENSE) contido nesse repositório.
+Esse repositório está licenciado pela **Mit License**. Para mais informações detalhadas, leia o arquivo [License](https://github.com/viniam/proconectados/blob/main/LICENSE) contido nesse repositório.
 
 ## Equipe
 
