@@ -46,9 +46,9 @@ O tema escolhido foi o de explorar as informações coletadas do site do minist�
 
 - **[Python](https://docs.python.org/pt-br/3/tutorial/index.html)**
 - **[Pip-tools](https://github.com/jazzband/pip-tools)**
-- **[Pandas documentation](https://pandas.pydata.org/pandas-docs/stable/index.html)**
-- **[PostgreSQL: The world's most advanced open source database](https://www.postgresql.org/)**
-- **[Plotly Python Graphing Library](https://plotly.com/python/)**
+- **[Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html)**
+- **[PostgreSQL](https://www.postgresql.org/)**
+- **[Plotly](https://plotly.com/python/)**
 - **[Flask](https://flask.palletsprojects.com/en/2.3.x/)**
 
 ## Referências
